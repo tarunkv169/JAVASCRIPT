@@ -43,7 +43,7 @@ console.log("my name is "+ Name + " age is "+ age);
 console.log(`my name is ${Name} age is ${age}`);
 
 
-//                        7.== vs ===
+//                         7.== vs ===  similarly != vs !==
 let num1="7";
 let num2= 7;
 
