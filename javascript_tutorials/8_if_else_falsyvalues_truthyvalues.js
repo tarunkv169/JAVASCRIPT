@@ -16,3 +16,15 @@ if(a)
 else{
     console.log("this is false");
 }
+
+// remaing all are trutht values
+
+//                             ternary operator
+
+console.log( (true)? "hello":"world" )
+a=1; 
+let b=0;
+console.log( (a>b)?"this is true":"this is false");
+
+
+
