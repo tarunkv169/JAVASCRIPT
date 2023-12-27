@@ -1,0 +1,13 @@
+
+nav{
+    display: flex;
+    background-color: aqua;
+}
+
+nav,li{
+    list-style: none;
+    padding: 0 28px;
+    border: 20px;
+    border-color: brown;
+    
+}
