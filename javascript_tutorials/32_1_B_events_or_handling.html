@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <!-- Event	          Description
+        onchange	          AnHTML element has been changed
+        onclick	          Theuser clicks an HTML element
+        onmouseover          The user moves the mouse over an HTML element
+        onmouseout	          he user moves the mouse away from an HTML element
+        onkeydown	          Te user pushes a keyboard key
+        onload	          The browser has finished loading the page -->
+
+
+    <!-- EX------1 -->
+    <div class="container"  onmouseenter="console.log('why u entered here')">
+       <button onclick="alert('u click button')">click me if u hav dare</button>
+    </div>
+
+
+
+    <!-- EX------2 -->
+    <h3>for date</h3>
+    <button onclick="document.body.getElementsByTagName('i')[0].innerHTML=Date()">time is</button>
+    <i>this is the time</i>
+
+
+    <!-- handling of events -->
+    <button class="btn">button</button>
+
+
+
+    <script src="32_B_events_or_handling.js"></script>
+</body>
+</html>
