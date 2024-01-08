@@ -24,13 +24,13 @@ if(key == 0){
 
 
 
-let f = fetch("41_2_readme.txt");
+// let f = fetch("41_2_readme.txt");
 
-f.then((response)=>{
-    return response.text();
-}).then((data)=>{
-    document.write(data);
-})
+// f.then((response)=>{
+//     return response.text();
+// }).then((data)=>{
+//     document.write(data);
+// })
 
 
 
@@ -39,8 +39,7 @@ let obj = {
     surname : "kumar",
     rollno : "133"
 };
-let f1 = fetch("https://jsonplaceholder.typicode.com/posts",
-          {
+let f1 = fetch("https://jsonplaceholder.typicode.com/posts",{
             method:"POST",
             body: JSON.stringify(obj),
             headers:{
