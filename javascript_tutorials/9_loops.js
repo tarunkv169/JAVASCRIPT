@@ -15,7 +15,7 @@ for(let i in person)
       console.log(i);
 }
 
-//for of give values
+//for of give values----- but not in case of these objects but good for array 
 
 for(let i in person)
 {
