@@ -20,10 +20,10 @@ if (alertTrigger) {
   })
 }
 
-// card title my own code                 (1 document.getElementsByClassName("")[]
-//                                        (2         .getElementsById("")                    
-//                                        (3         .getElementsByTagName("") 
-//                                        (4         .getElementsByName("") 
+// card title my own code                 (1 document.getElementsByClassName("")[]        // [] these are a type of an array(🛑we say type of because need to convert into array using Array.from()  ) to access different elements of same class
+//                                        (2         .getElementById("")               //🛑always use directly with document //🛑only in this "Element" is used not "Element"s"   //  id--- is unique thats why we dont use []       
+//                                        (3         .getElementsByTagName("")[] 
+//                                        (4         .getElementsByName("")[] 
 
 //                                        (5         .querySelectorAll(".card-title")                    
 //                                        (6         .querySelector(".this")                    
@@ -47,5 +47,15 @@ console.log(cardtitiles);
 
 document.querySelector(".this").style.color = "red";
 document.querySelector(".this").style.background = "black";
+
+
+// here u can see how to use [] in getElement 
+let element = document.body.getElementsByTagName("p");
+let elementArray = Array.from(element);
+
+for(let i = 0 ; i<elementArray.length ; i+=2 )
+{
+  elementArray[i].style.color = "red";
+}
 
 
