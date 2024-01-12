@@ -75,3 +75,17 @@ console.log(arr6)
 //                  13.slice()-----
 console.log(arr6.slice(2,6));
 console.log(arr6);
+
+//                  14.array is reference datatype
+let num1=6;
+let num2=num1;
+console.log(num1+" "+num2);
+num1++;
+console.log(num1+" "+num2);
+
+// u can see normal variable is not referenc but array is internally take the reference of other array
+let arr7=[1,2,3];
+let arr8=arr7;
+console.log(arr7 + "     " + arr8);
+arr7.push(4,5,6);
+console.log(arr7 + "     " + arr8);
