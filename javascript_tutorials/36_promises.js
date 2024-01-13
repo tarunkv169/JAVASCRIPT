@@ -129,7 +129,7 @@
 //     console.log(value);
 // })
 
-// //             2. Promise.allsettled([])-------in case of reject out of resolves
+// //             2. Promise.allSettled([])-------in case of reject out of resolves
 // let promise_all_settled = Promise.allSettled([p7,p8,p9]);
 
 // promise_all_settled.then((value)=>{
